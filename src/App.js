@@ -1,6 +1,7 @@
 import React from 'react'
 import { styles } from './util/style'
 import { Navbar } from './components/Navbar'
+import Home from './components/Home'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.container}`}>
           <Navbar/>
+          <Home/>
         </div>
       </div>
     </div>
