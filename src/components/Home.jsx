@@ -9,11 +9,15 @@ const Home = () => {
         {/* Discount information */}
         <div className="flex flex-row items-center py-[16px] px-4 rounded-[10px] mb-2 bg-slate-500 bg-discount-gradient">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-          <p className={`${styles.paragraph}`}><span className="text-white">20%</span> Chegirma <span className="text-white">1 Oylik</span> hisob uchun</p>
+          <p className={`${styles.paragraph} ml-2`}><span className="text-white">20%</span> Chegirma <span className="text-white">1 Oylik</span> hisob uchun</p>
         </div>
 
         {/* Title */}
-        <div></div>
+        <div className="w-full">
+          <h1 className={`${styles.heading1}`}>
+            Yangi Avlod <br /> <span className="text-gradient">To'lov Usuli</span>
+          </h1>
+        </div>
 
         {/* Description */}
         <div></div>
