@@ -3,6 +3,8 @@ import { styles } from './util/style'
 import { Navbar } from './components/Navbar'
 import { Home } from './components/Home'
 import Statistics from './components/Statistics'
+import Contract from './components/Contract'
+import Billing from './components/Billing'
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
       <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.container}`}>
           <Statistics />
+          <Contract/>
+          <Billing/>
         </div>
       </div>
     </div>
