@@ -20,7 +20,9 @@ const Navbar = () => {
     <div className={`w-full py-6 ${styles.flexBetween}`}>
       {/* Logo */}
       <div className={`${styles.heading}`}>
+        <a href="/">
         <img src={logo} alt="logo" className="w-[130px] cursor-pointer" />
+        </a>
       </div>
 
       {/* navigation link */}
@@ -32,8 +34,9 @@ const Navbar = () => {
               className={`font-montserrat font-normal cursor-pointer text-[16px] ${
                 idx === navigationLinks.length - 1 ? "mr-0" : "mr-10"
               } ${active === nav.id ? 'text-white' : 'text-lightWhite'} hover:text-white transition-all duration-500`} onClick={() => {activeHandle(nav.id)}}>
-              {nav.title}
+              <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
+
           );
         })}
       </ul>

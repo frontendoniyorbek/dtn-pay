@@ -4,7 +4,7 @@ import Button from "./Button"
 
 const Contract = () => {
   return (
-    <section className={layout.section}>
+    <section id="product" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Bir nechta oson qadamda <br className="sm:block hidden"/> katrak tuzing</h2>
         <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
