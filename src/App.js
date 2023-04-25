@@ -5,6 +5,8 @@ import { Home } from './components/Home'
 import Statistics from './components/Statistics'
 import Contract from './components/Contract'
 import Billing from './components/Billing'
+import Business from './components/business'
+import Cta from './components/Cta'
 
 const App = () => {
   return (
@@ -28,6 +30,8 @@ const App = () => {
           <Statistics />
           <Contract/>
           <Billing/>
+          <Business/>
+          <Cta/>
         </div>
       </div>
     </div>
